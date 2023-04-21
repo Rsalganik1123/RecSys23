@@ -1,8 +1,9 @@
-# RecSys23
-This code is intended for the RecSys 2023 submission. 
+This code is intended for the RecSys 2023 submission. Everything here is exactly as it was used to implement the provided results. 
+
+However, This code has not yet been cleaned. In the next few weeks it will be documented, commented, and organized for reproducibility. For now, we release this code to show our willingness to share implementation with the community. 
 
 There are two major folders: Data Augmentation and MusicSAGE. 
-
+ 
 # Data Augmentation 
 ***Note: in order to use the spotipy library you have to go on [this link](https://developer.spotify.com/dashboard/) and register for a developer token and secret key. Once you have those, you can add them to the ```utils/private.py``` file. 
 
@@ -17,4 +18,6 @@ There are three steps which need to be done in order to reproduce our datasets:
     - Album artwork: ```python augment_main.py --mode gen_img_emb --input <input_path> --output <output_path.pkl>```
     - Track names: ```python augment_main.py --mode gen_text_emb--input <input_path> --output <output_path.pkl>```
 
+
+To be continued... 
 
